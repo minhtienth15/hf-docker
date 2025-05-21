@@ -14,10 +14,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set timezone to Europe/Istanbul
+      - name: Set timezone to Asia/Ho_Chi_Minh
         run: |
-          sudo timedatectl set-timezone Europe/Istanbul # You can change this lines according to your own time zone.
-          export TZ="Europe/Istanbul"
+          sudo timedatectl set-timezone Asia/Ho_Chi_Minh # You can change this lines according to your own time zone.
+          export TZ="Asia/Ho_Chi_Minh"
 
       - name: Add timestamp to Dockerfile
         run: |
